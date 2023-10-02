@@ -9,9 +9,11 @@ export class BigCardComponent implements OnInit {
   @Input()
   imageSrc: string = '';
   @Input()
-  title: string = 'Nova versão do Angular lançada';
+  title: string = '';
   @Input()
   description: string = '';
+  @Input()
+  id: string = '0';
   constructor() {}
 
   ngOnInit(): void {}

@@ -1,5 +1,7 @@
-<div class="container__small-card">
-  <img src="{{ imageSrc }}" alt="Capa da notícia" />
-  <h1>{{ title }}</h1>
-</div>
-<hr />
+<a [routerLink]="['content', id]">
+  <div class="container__small-card">
+    <img src="{{ imageSrc }}" alt="Capa da notícia" />
+    <h1>{{ title }}</h1>
+  </div>
+  <hr />
+</a>
